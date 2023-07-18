@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <title>PersonalWebsite</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+<body>
+  <!--  Start of welcome page -->
+    <header class="header">
+        <a href="" class="logo">Jasper <span>Ngunjiri</span></a>
+       
+        <nav class="navbar">
+            <ul id="sideMenu">
+           <li><a href="#home" class="active" style="--i:1;">Home</a></li> 
+           <li><a href="#about" style="--i:2;">About</a></li> 
+           <li><a href="#services" style="--i:3;">Services</a></li> 
+           <li><a href="#projects" style="--i:4;">Projects</a></li> 
+           <li><a href="#contacts" style="--i:5;">Contact</a></li> 
+            <i class="bx bx-plus" onclick="closeMenu()"></i>
+        </ul>
+            <i class="bx bx-menu" onclick="openMenu()"></i>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello,👋<br> I'm Jasper Ngunjiri</h1>
+            <h3>Frontend Developer &amp; UI/UX Designer</h3>
+            <p>I am zealous about making amazing user interface designs and improving customer user experience while they navigate different websites.</p>
+            <div class="btn-box">
+                <a href="./resume/Jasper Ngunjiri Resume.pdf" download>Download Resume</a>
+                <a href="https://wa.me/0706235398" target="_blank">Hire Me</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/jasper-wambugu-2a4294269/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.facebook.com/jasper.wambugu" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://twitter.com/JasperWambugu"><i class="bx bxl-twitter"></i></a>
+            <a href="https://wa.me/0706235398" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://github.com/JAS-D98/Login-Page/blob/master/index.html" target="_blank"> <i class="bx bxl-github"></i></a>
+        </div>
+    </section>
+<!-- end of welcome page -->
+
+<!-- Start of about Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <figure>
+                <img src="./Images/FB_IMG_16877870666054135.jpg">
+                <figcaption>Jasper Ngunjiri Wambugu</figcaption>
+                </figure>
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About <span>Me</span></h2>
+                <p>I am a Software Developer, UI/UX Designer, Graphic Designer and Tech enthusiast hailing from Kenya. I am currently undertaking a Mathematics and Computer Science Undergraduate Degree at Murang'a University of Technology in Kenya, where I have met with like minded individuals who have offered mentorship and inspiration and have contributed to my passion to constantly learn. With proficiency in a variety of Technologies and programming languages, I intend to use this skills to better the lives of others by improving the quality of services they get. While schooling, I have been part of the Google Developers Students Club which has exposed me to Wed Development industry standards through seminars and webinar Sessions, which have positively challenged me to be more open minded about coding and meeting user needs.</p>
+           <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>Graphics Design</span><br>Making Cool Graphic Designs</li>
+                <li><span>IT Support</span><br>Providing IT Consultancy &amp; Support Services</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023 - Current Date</span><br>IT Support at Outspan Medical College</li>
+                <li><span>2023</span><br>UI/UX Design at Coursera</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020-Current</span><br>BSC Maths &nbsp; Computer Science at Murang'a University of Technology.</li>
+                <li><span>2023</span><br>Certificate in UI/UX Design at Coursera.com</li>
+                <li><span>2023</span><br>Certificate in IT Support Training at Coursera.com</li>
+                <li><span>2022-2023</span><br>Diploma in E-Commerce Web Design at Alison.com</li>
+            </ul>
+           </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of about section -->
+
+<!-- Start of Services section -->
+<section class="services" id="services">
+<h2 class="heading">My <span>Services</span></h2>
+<div class="services-container">
+    <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development &amp; Hosting</h3>
+        <p>Get amazing designs and beautiful websites, that are responsive and are up to date with current industry standards all in line with your needs and preferences.</p>
+    </div>
+    <div class="services-box">
+        <i class='bx bx-crop'></i>
+        <h3>UI/UX Design</h3>
+        <p>Making amazing User Experience Designs is the number one goal with user needs in mind. Get designs for both Responsive Websites and Mobile layouts. Services offered include, UX Research, Mockup Designing, Prototyping and Testing</p>
+    </div>
+    <div class="services-box">
+        <i class='bx bxs-paint'></i>
+        <h3>Graphic Design</h3>
+        <p>Get an amazing Graphic designer who will transform your ideas to an amazing visual representation.</p>
+    </div>
+    <div class="services-box">
+        <i class='bx bxs-box'></i>
+        <h3>IT Support</h3>
+        <p>Get I.T support and consultancy services provided to you in areas such as error handling, Operating Systems, Network troubleshooting and many more.</p>
+    </div>
+</div>
+</section>
+<!-- End of services section -->
+
+<!--Start of Projects Section -->
+<section class="projects" id="projects">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="work">
+
+    <div class="project-container">
+        <div class="project-box">
+            <div class="imgBx">
+                <img src="./Images/Project -Screenshot.png">
+            </div>
+            <a href="https://dribbble.com/JasD-98">
+            <div class="proj-content">
+            <div>
+            <h2>Art App Store Mobile User Interface</h2>
+            <p>An Art App Mobile Interface Web Design.</p>
+        </div> 
+    </div>
+    </a>
+</div>
+        <div class="project-box">
+            <div class="imgBx">
+              <img src="./Images/Coffee Shop.png">
+            </div>
+            <a href="https://jasperlogin.netlify.app/">
+            <div class="proj-content">
+                <div>
+            <h2>Coffee Shop</h2>
+            <p>A Coffee Shop Welcome home-page web design</p>
+        </div>
+    </div>
+    </a>
+    </div>
+        <div class="project-box">
+            <div class="imgBx">
+                <img src="./Images/TO-DO-LIST.png">
+            </div>
+            <a href="https://do-task.netlify.app/">
+            <div class="proj-content">
+                <div>
+            <h2>TO-DO-LIST</h2>
+            <p>An Application that will help you keep track of the tasks you need to carry out.</p>
+            </div>
+         </div>
+        </a>
+</div>
+</div>
+</div>
+</section>
+<!--End of Projects Section -->
+
+<!-- start of contact section -->
+<div class="contacts" id="contacts">
+   <div class="contact-content">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <p>Thank you for visiting this site. Kindly reach out to me for any querries or access to my Services. Here's a reminder for you to leave a comment at the Form Section Below.</p>
+    </div>
+    <div class="contact-container">
+        <div class="contactInfo">
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bx-map'></i>
+                </div>
+                <div class="contact-text">
+                    <h3>Address</h3>
+                    <p>64-10200 Nyeri Town: Central</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="contact-text">
+                    <h3>Email</h3>
+                    <p>jasperwambugu@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bx-phone'></i>
+                </div>
+                <div class="contact-text">
+                    <h3>Phone</h3>
+                    <p>+254 706 235 398</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form action="https://formsubmit.co/jasperwambugu@gmail.com" method="post">
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="name" required>
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputBox">
+                  <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End of contact section -->
+
+<!-- start of footer section -->
+<footer class="footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+<ul class="social-icons">
+    <li> <a href="https://www.linkedin.com/in/jasper-wambugu-2a4294269/" target="_blank"><i class="bx bxl-linkedin"></i></a><br>Linkedin</li>
+    <li> <a href="https://www.facebook.com/jasper.wambugu" target="_blank"><i class="bx bxl-facebook"></i></a><br>Facebook</li>
+    <li> <a href="https://twitter.com/JasperWambugu"><i class="bx bxl-twitter"></i></a><br>Twitter</li>
+    <li> <a href="https://wa.me/0706235398" target="_blank"> <i class="bx bxl-whatsapp"></i></a><br>Whatsapp</li>
+    <li> <a href="https://github.com/JAS-D98/Login-Page/blob/master/index.html" target="_blank"> <i class="bx bxl-github"></i></a><br>Github</li>
+</ul>
+<p>&copy;2023 All Rights Reserved || Created by Jasper</p>
+</footer>
+<!-- end of start section -->
+
+
+<!-- Js script Tag -->
+<script src="script.js"></script>
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabName){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link")
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+
+    const inputs= document.querySelectorAll(".input");
+    function focusFunc(){
+        let parent = this.parentNode;
+        parent.classList.add("focus");
+    }
+    function blurFunc(){
+        let parent = this.parentNode;
+        if(this.value==""){
+        parent.classList.remove("focus");
+        }
+    }
+    inputs.forEach(input =>{
+        input.addEventListener("focus", focusFunc);
+        input.addEventListener("blur", blurFunc);
+    })
+
+    var sideMenu=document.getElementById("sideMenu");
+
+    function openMenu(){
+        sideMenu.style.right="0";
+    }
+    function closeMenu(){
+        sideMenu.style.right="-250px";
+    }
+</script>
+</body>
+</html>
