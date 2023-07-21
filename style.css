@@ -154,9 +154,14 @@ nav .bx{display: none;}
     html{font-size: 80%;}
 }
 @media(max-width:991px){
-    .header{padding: 2rem 4%;}
-    .home{padding: 0 4%;}
-    nav .bx{display: block;font-size: 60px;margin-right: 1%;}
+    html{font-size: 70%;}
+    .header{padding: 2rem 4%;font-size: 30px;font-weight: 500;}
+    .home{padding: 0 4%;font-size: 30px;}
+    .home-content h1{font-size: 3rem;}
+    .home-content h3{font-size: 2.5rem;}
+    .home-content p{font-size: 14px;}
+    .home-content a{font-size: 14px;}
+    nav .bx{display: block;font-size: 80px;margin-right: 1%;}
     nav ul{position: fixed;top: 0;right: -250px;width: 250px;height: 100%;padding-top:50px ;background: #00abf0;z-index: 2;transition: .5s;}
     nav ul li{display: block;margin: 25px;}
     .navbar a:hover,.navbar a.active{color: #0b293f;}
