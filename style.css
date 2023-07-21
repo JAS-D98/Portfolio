@@ -175,10 +175,10 @@ nav .bx{display: none;}
     .contact-container{flex-direction: column;}
     .contact-container .contactInfo{margin-bottom: 40px;}
     .contact-container .contactInfo, .contactForm{width: 100%;}
-}
+}/* 
 
 @media (max-width:520px){
     html{font-size: 50%;}
     .home-content h1{display: flex;flex-direction: column;}
     .home-sci a{width: 38px;height: 38px;}
-}
+} */
