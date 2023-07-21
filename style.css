@@ -175,10 +175,33 @@ nav .bx{display: none;}
     .contact-container{flex-direction: column;}
     .contact-container .contactInfo{margin-bottom: 40px;}
     .contact-container .contactInfo, .contactForm{width: 100%;}
-}/* 
+}
 
 @media (max-width:520px){
-    html{font-size: 50%;}
+     html{font-size: 50%;}
+     /* welcomepage section */
+    .header{padding:10px;}
     .home-content h1{display: flex;flex-direction: column;}
+    .home-content .btn-box{width: 300px;text-align: center;}
+    .home-content .btn-box a{margin: 2%;}
     .home-sci a{width: 38px;height: 38px;}
-} */
+      /*  footer section */
+    .footer{padding: 6px;overflow: hidden;}
+}
+
+@media (max-width:375px){
+     html{font-size: 40%;}
+     /* welcomepage section */
+    .header{padding:10px;}
+    .home-content .btn-box{width: 300px;text-align: center;margin-top: -7%;}
+    .home-content .btn-box a{margin: 2%;}
+    .home-sci{margin-bottom: -7%;justify-content: center;width: 300px;}
+    .home-sci a{width: 38px;height: 38px;margin:0% 3%;} 
+    
+   /*  about section */
+   #about{padding: 60px;}
+   /*  contacts section */
+  .contacts{padding: 20px;}
+    /*  footer section */
+  .footer{padding: 6px;overflow: hidden;}
+}
