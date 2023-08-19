@@ -70,7 +70,7 @@ span{color: #00abf0;}
 /* End of service section */
 
 /* Start of Projects Section */
-.work{display: flex;justify-content: center;align-items: center;min-height: 60vh;overflow: hidden;}
+.work{display: flex;justify-content: center;align-items: center;overflow: hidden;}
 .project-container{position: relative;width: 100%;display: flex;flex-wrap: wrap;transform-style: preserve-3d;perspective: 500px;justify-content: center;}/* correct */
 .project-container .project-box{position: relative;width: 300px;height: 300px;background: #081b29;transition: 0.5s;transform-style:preserve-3d;overflow: hidden;margin: 30px;border-radius: 10px;}
 .project-container:hover .project-box{transform: rotateY(25deg);}
