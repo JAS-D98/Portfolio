@@ -196,9 +196,24 @@
             </div>
          </div>
         </a>
+    </a>
+    </div>
+        <div class="project-box">
+            <div class="imgBx">
+                <img src="./Images/Mentor Manage Site.png">
+            </div>
+            <a href="https://tailwindcssmanagesite.netlify.app/" target="_blank">
+            <div class="proj-content">
+                <div>
+            <h2>TailwindCss:Management Website</h2>
+            <p>Enables software teams to plan day to day tasks.</p>
+            </div>
+         </div>
+        </a>
 </div>
 </div>
 </div>
+<!-- View More Projects button can go here -->
 </section>
 <!--End of Projects Section -->
 
@@ -285,8 +300,8 @@
 <!-- Js script Tag -->
 <script src="script.js"></script>
 <script>
-    var tabLinks = document.getElementsByClassName("tab-links");
-    var tabContents = document.getElementsByClassName("tab-contents");
+    let tabLinks = document.getElementsByClassName("tab-links");
+    let tabContents = document.getElementsByClassName("tab-contents");
 
     function opentab(tabName){
         for(tabLink of tabLinks){
@@ -315,7 +330,7 @@
         input.addEventListener("blur", blurFunc);
     })
 
-    var sideMenu=document.getElementById("sideMenu");
+    let sideMenu=document.getElementById("sideMenu");
 
     function openMenu(){
         sideMenu.style.right="0";
