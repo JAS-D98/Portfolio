@@ -69,6 +69,42 @@ span{color: #00abf0;}
 .services-box p{font-size: 1rem;margin: 1rem 0 3rem;}
 /* End of service section */
 
+/* start of slider section */
+.slider {
+    margin: auto;
+    width: 90%;
+    min-height: auto;
+    text-align: center;
+}
+
+swiper-container {
+    width: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0%;
+}
+
+swiper-slide img {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+
+/* end of slider section */
+
 /* Start of Projects Section */
 .projects{width: 100%;height: auto;margin-bottom: 3%;}
 .work{display: flex;justify-content: center;align-items: center;overflow: hidden;}

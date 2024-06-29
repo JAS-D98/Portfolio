@@ -7,6 +7,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home, .heading, .contact-content', { origin: 'top' });
-ScrollReveal().reveal('.services-container, .project-container', { origin:'bottom' });
+ScrollReveal().reveal('.services-container, .project-container, .mySwiper', { origin:'bottom' });
 ScrollReveal().reveal('.about-col-1, .contactInfo', { origin:'left' });
 ScrollReveal().reveal('.about-col-2, .contactForm', { origin:'right' });
