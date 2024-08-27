@@ -1,3 +1,7 @@
+let yearText=document.querySelector("#year")
+let currentYear=new Date();
+yearText.textContent=currentYear.getFullYear();
+
 /* scroll reveal */
 ScrollReveal({
     reset:true,
